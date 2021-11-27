@@ -1,6 +1,6 @@
 <template>
   <div class="home-page_box">
-    首页
+    首页1
   </div>
 </template>
 
