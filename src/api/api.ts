@@ -14,9 +14,10 @@
     })
   })
   import { get, post, $delete, $put } from '../utils/http'
+  
 
-export default {    
-  reIndex: '/arrange/reIndex', // 调换顺序
-  ...apiModules
-}
+  export default {    
+    reIndex: api + '/arrange/reIndex', // 调换顺序
+    ...apiModules
+  }
  

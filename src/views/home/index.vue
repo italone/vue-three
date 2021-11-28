@@ -8,7 +8,10 @@
 import { ref, defineComponent, reactive, toRefs, getCurrentInstance, provide } from 'vue'
 export default defineComponent({
   name: 'nf-headers',
-  setup() {}
+  setup() {
+    const { ctx }:any = getCurrentInstance()
+    console.log(ctx,111)
+  }
 })
 </script>
 
