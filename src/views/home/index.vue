@@ -9,8 +9,8 @@ import { ref, defineComponent, reactive, toRefs, getCurrentInstance, provide } f
 export default defineComponent({
   name: 'nf-headers',
   setup() {
-    const { ctx }:any = getCurrentInstance()
-    console.log(ctx,111)
+    const { appContext }: any = getCurrentInstance()
+    console.log(appContext.config.globalProperties.$api,111)
   }
 })
 </script>
