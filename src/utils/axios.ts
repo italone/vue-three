@@ -4,7 +4,6 @@ import { ElMessage } from 'element-plus'
 import { getToken, removeToken, setToken } from './auth'
 export let baseURL : any = import.meta.env.VITE_APP_API;
 // 创建axios实例
-console.log(window)
 const service = Axios.create({
   baseURL: '127.0.0.1',
   timeout: 150000
