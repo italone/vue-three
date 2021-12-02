@@ -10,7 +10,7 @@ export default defineComponent({
   name: 'nf-headers',
   setup() {
     const { proxy }: any = getCurrentInstance()
-    console.log(proxy.$api,111)
+    console.log(proxy.$api)
   }
 })
 </script>
